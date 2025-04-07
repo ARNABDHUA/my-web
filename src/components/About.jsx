@@ -91,7 +91,7 @@ const About = () => {
               <InfoItem icon={<FaEnvelope />} label="Email" value="arnabdhua74@gmail.com" />
               <InfoItem icon={<FaGraduationCap />} label="Degree" value="MCA (Pursuing)" />
               <InfoItem icon={<FaBriefcase />} label="Experience" value="Internship at Celebal" />
-              <InfoItem icon={<FaLaptopCode />} label="Freelance" value="Available" />
+              <InfoItem icon={<FaLaptopCode />} label="Work Role" value="Software Developer" />
             </div>
             
             <p className="text-gray-300 mb-6 md:mb-8 text-center lg:text-left">
@@ -131,9 +131,9 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mt-12 md:mt-20"
         >
-          <StatCard number={1} text="Years of Experience" />
+          <StatCard number={0} text="Years of Experience" />
           <StatCard number={4} text="Projects Completed" />
-          <StatCard number={1} text="Happy Clients" />
+          <StatCard number={0} text="Happy Clients" />
           <StatCard number={1} text="Internships" />
         </motion.div>
       </div>
