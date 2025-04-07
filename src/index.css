@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4f46e5;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6366f1;
+}
+
+/* Change status bar color (notch area) */
+@media (prefers-color-scheme: dark) {
+  meta[name="theme-color"] {
+    content: "#111827E6";
+  }
+}
+
+/* Change browser tab title bar color */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar {
+    background-color: #121212;
+  }
+}
